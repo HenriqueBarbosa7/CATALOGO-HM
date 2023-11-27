@@ -1,0 +1,250 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+header {
+    display: block;
+    width: 100vw;
+    background: rgba( 32,32,32, .6);
+
+}
+
+.image-hm {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+}
+
+.bv-title {
+    display: inline-block;
+    text-align: center;
+    position: absolute;
+    top: 30px;
+    right: 50%;
+    font-size: 35px;
+    font: 600;
+}
+
+
+.section-one {
+    display: block;
+    width: 100vw;
+    background: rgba(0, 0, 0, .1);
+}
+
+.img-red {
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+
+}
+
+.name-shoes {
+    display: inline-block;
+    position: absolute;
+    top: 20%;
+    font-size: 25px;
+    font: 400px;
+
+}
+
+.price-shoes {
+    display: inline-block;
+    position: absolute;
+    top: 30%;
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 15px;
+    color:  #FFF;
+    height: 30px;
+    width: 115px;
+    border-radius: 15px;
+    border: none;
+    background: #525250;
+}
+
+.section-two {
+    display: block;
+    width: 100vw;
+    background: rgba(0, 0, 0, .1);
+}
+
+.img-white {
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+
+}
+
+.name-shoes2 {
+    display: inline-block;
+    position: absolute;
+    top: 60%;
+    font-size: 25px;
+    font: 400px;
+
+}
+
+.price-shoes2 {
+    display: inline-block;
+    position: absolute;
+    top: 70%;
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 15px;
+    color: #FFF;
+    height: 30px;
+    width: 115px;
+    border-radius: 15px;
+    border: none;
+    background: #525250;
+}
+
+.section-three {
+    display: block;
+    width: 100vw;
+    background: rgba(0, 0, 0, .1);
+}
+
+.img-red-alt {
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+}
+
+.price-shoes3 {
+    display: inline-block;
+    position: absolute;
+    top: 110%;
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 15px;
+    color: #FFF;
+    height: 30px;
+    width: 115px;
+    border-radius: 15px;
+    border: none;
+    background: #525250;
+}
+
+.name-shoes3 {
+    display: inline-block;
+    position: absolute;
+    top: 100%;
+    font-size: 25px;
+    font: 400px;
+}
+
+@media screen and (max-width:950px) {
+  
+.section-one {
+    padding: 5px;
+}
+
+.bv-title {
+    top: 26px;
+    right: 22%;
+    font-size: 25px;
+}
+
+.img-red {
+    width: 222px;
+    height: 200px;
+}
+
+.name-shoes {
+    display: inline-block;
+    position: absolute;
+    top: 15%;
+    font-size: 16px;
+    font: 400px;
+}
+
+.price-shoes {
+    display: inline-block;
+    position: absolute;
+    top: 24%;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 15px;
+    color: #FFF;
+    height: 28px;
+    width: 85px;
+    border-radius: 15px;
+    border: none;
+    background: #525250;
+}
+
+.section-two {
+    padding: 5px;
+}
+
+.img-white {
+    display: inline-block;
+    width: 220px;
+    height: 200px;
+}
+
+.name-shoes2 {
+    display: inline-block;
+    position: absolute;
+    top: 37%;
+    font-size: 13px;
+    font: 400px;
+}
+
+.price-shoes2 {
+    display: inline-block;
+    position: absolute;
+    top: 47%;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 15px;
+    color: #FFF;
+    height: 30px;
+    width: 85px;
+    border-radius: 15px;
+    border: none;
+    background: #525250;
+}
+
+.section-three {
+    padding: 5px;
+}
+
+.img-red-alt {
+    display: inline-block;
+    width: 220px;
+    height: 200px;
+}
+
+.name-shoes3 {
+    display: inline-block;
+    position: absolute;
+    top: 60%;
+    font-size: 18px;
+    font: 400px;
+}
+
+.price-shoes3 {
+    display: inline-block;
+    position: absolute;
+    top: 72%;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 15px;
+    color: #FFF;
+    height: 30px;
+    width: 90px;
+    border-radius: 15px;
+    border: none;
+    background: #525250;
+
+}
+
+
+
+}
