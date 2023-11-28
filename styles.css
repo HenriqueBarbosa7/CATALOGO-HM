@@ -6,18 +6,50 @@
 }
 
 header {
-    display: block;
-    width: 100vw;
-    background: rgba( 32,32,32, .6);
-
+    background: rgba(32, 32, 32, .6);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem 1.5rem
 }
 
 .image-hm {
-    display: inline-block;
-    width: 100px;
-    height: 100px;
+    max-width: 100px;
+    max-height: 100px;
 }
 
+.cleats-container {
+    height: 100%;
+}
+
+.cleats-container h2 {
+    text-align: center;
+    margin: 1.5rem auto;
+}
+
+.cleats-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 2rem;
+}
+
+.cleats {
+    background: #ede9e9;
+    min-width: 310px;
+    max-height: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.cleats img {
+    width: 80%;
+}
+
+
+/* 
 .bv-title {
     display: inline-block;
     text-align: center;
@@ -26,7 +58,7 @@ header {
     right: 50%;
     font-size: 35px;
     font: 600;
-}
+} 
 
 
 .section-one {
@@ -58,7 +90,7 @@ header {
     font-size: 19px;
     font-weight: 600;
     line-height: 15px;
-    color:  #FFF;
+    color: #FFF;
     height: 30px;
     width: 115px;
     border-radius: 15px;
@@ -139,112 +171,109 @@ header {
 }
 
 @media screen and (max-width:950px) {
-  
-.section-one {
-    padding: 5px;
-}
 
-.bv-title {
-    top: 26px;
-    right: 25%;
-    font-size: 30px;
-}
+    .section-one {
+        padding: 5px;
+    }
 
-.img-red {
-    width: 222px;
-    height: 200px;
-}
+    .bv-title {
+        top: 26px;
+        right: 25%;
+        font-size: 30px;
+    }
 
-.name-shoes {
-    display: inline-block;
-    position: absolute;
-    top: 20%;
-    font-size: 16px;
+    .img-red {
+        width: 222px;
+        height: 200px;
+    }
+
+    .name-shoes {
+        display: inline-block;
+        position: absolute;
+        top: 20%;
+        font-size: 16px;
 
     }
 
-.price-shoes {
-    display: inline-block;
-    position: absolute;
-    top: 26%;
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 15px;
-    color: #FFF;
-    height: 28px;
-    width: 85px;
-    border-radius: 15px;
-    border: none;
-    background: #525250;
-}
+    .price-shoes {
+        display: inline-block;
+        position: absolute;
+        top: 26%;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 15px;
+        color: #FFF;
+        height: 28px;
+        width: 85px;
+        border-radius: 15px;
+        border: none;
+        background: #525250;
+    }
 
-.section-two {
-    padding: 5px;
-}
+    .section-two {
+        padding: 5px;
+    }
 
-.img-white {
-    display: inline-block;
-    width: 220px;
-    height: 200px;
-}
+    .img-white {
+        display: inline-block;
+        width: 220px;
+        height: 200px;
+    }
 
-.name-shoes2 {
-    display: inline-block;
-    position: absolute;
-    top: 52%;
-    font-size: 13px;
-    font: 400px;
-}
+    .name-shoes2 {
+        display: inline-block;
+        position: absolute;
+        top: 52%;
+        font-size: 13px;
+        font: 400px;
+    }
 
-.price-shoes2 {
-    display: inline-block;
-    position: absolute;
-    top: 58%;
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 15px;
-    color: #FFF;
-    height: 30px;
-    width: 85px;
-    border-radius: 15px;
-    border: none;
-    background: #525250;
-}
+    .price-shoes2 {
+        display: inline-block;
+        position: absolute;
+        top: 58%;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 15px;
+        color: #FFF;
+        height: 30px;
+        width: 85px;
+        border-radius: 15px;
+        border: none;
+        background: #525250;
+    }
 
-.section-three {
-    padding: 5px;
-}
+    .section-three {
+        padding: 5px;
+    }
 
-.img-red-alt {
-    display: inline-block;
-    width: 220px;
-    height: 200px;
-}
+    .img-red-alt {
+        display: inline-block;
+        width: 220px;
+        height: 200px;
+    }
 
-.name-shoes3 {
-    display: inline-block;
-    position: absolute;
-    top: 83%;
-    font-size: 18px;
-    font: 400px;
-}
+    .name-shoes3 {
+        display: inline-block;
+        position: absolute;
+        top: 83%;
+        font-size: 18px;
+        font: 400px;
+    }
 
-.price-shoes3 {
-    display: inline-block;
-    position: absolute;
-    top: 89%;
-    font-size: 15px;
-    font-weight: 600;
-    line-height: 15px;
-    color: #FFF;
-    height: 30px;
-    width: 90px;
-    border-radius: 15px;
-    border: none;
-    background: #525250;
+    .price-shoes3 {
+        display: inline-block;
+        position: absolute;
+        top: 89%;
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 15px;
+        color: #FFF;
+        height: 30px;
+        width: 90px;
+        border-radius: 15px;
+        border: none;
+        background: #525250;
 
-}
-
-
-
-}
+    }
+}*/
