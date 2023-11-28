@@ -146,8 +146,8 @@ header {
 
 .bv-title {
     top: 26px;
-    right: 22%;
-    font-size: 25px;
+    right: 25%;
+    font-size: 30px;
 }
 
 .img-red {
@@ -158,15 +158,15 @@ header {
 .name-shoes {
     display: inline-block;
     position: absolute;
-    top: 15%;
+    top: 20%;
     font-size: 16px;
-    font: 400px;
-}
+
+    }
 
 .price-shoes {
     display: inline-block;
     position: absolute;
-    top: 24%;
+    top: 26%;
     font-size: 16px;
     font-weight: 600;
     line-height: 15px;
@@ -191,7 +191,7 @@ header {
 .name-shoes2 {
     display: inline-block;
     position: absolute;
-    top: 37%;
+    top: 52%;
     font-size: 13px;
     font: 400px;
 }
@@ -199,7 +199,7 @@ header {
 .price-shoes2 {
     display: inline-block;
     position: absolute;
-    top: 47%;
+    top: 58%;
     font-size: 16px;
     font-weight: 600;
     line-height: 15px;
@@ -224,7 +224,7 @@ header {
 .name-shoes3 {
     display: inline-block;
     position: absolute;
-    top: 60%;
+    top: 83%;
     font-size: 18px;
     font: 400px;
 }
@@ -232,7 +232,7 @@ header {
 .price-shoes3 {
     display: inline-block;
     position: absolute;
-    top: 72%;
+    top: 89%;
     font-size: 15px;
     font-weight: 600;
     line-height: 15px;
